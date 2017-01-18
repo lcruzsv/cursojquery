@@ -1,7 +1,6 @@
 var parejas = [];
 var carta1 = 0, carta2 = 0;
 
-
 /*
 Inicializa el juego, recibe de como parametro la cantidad
 de parejas con que se va a trabajar
@@ -95,3 +94,10 @@ function mostrarLinea(desde, hasta)
   }
   $('#tablero').append('<br>');
 }
+
+/*
+  Inicializa el juego al terminar de cargar el documento
+*/
+$(function() {
+    inicio(6);
+});
