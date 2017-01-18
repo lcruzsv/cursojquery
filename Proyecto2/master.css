@@ -1,0 +1,65 @@
+.pareja{
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: #bbb;
+  box-shadow:none;
+  border-radius: 0px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #b3ccff;
+}
+
+
+.pareja-1{
+  background-image: url("iconos/1.svg");
+}
+
+.pareja-2{
+  background-image: url("iconos/2.svg");
+}
+
+.pareja-3{
+  background-image: url("iconos/3.svg");
+}
+
+.pareja-4{
+  background-image: url("iconos/4.svg");
+}
+
+.pareja-5{
+  background-image: url("iconos/5.svg");
+}
+
+.pareja-6{
+  background-image: url("iconos/6.svg");
+}
+
+.pareja-7{
+  background-image: url("iconos/7.svg");
+}
+
+.pareja-8{
+  background-image: url("iconos/8.svg");
+}
+
+.pareja-9{
+  background-image: url("iconos/9.svg");
+}
+
+.pareja-10{
+  background-image: url("iconos/10.svg");
+}
+
+.reverso{
+  background-image: url("iconos/16.svg");
+  background-color: #f5f5f0;  
+}
+
+.pareja-select {
+  border-color: #999;
+}
